@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    font-family: "popoins",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:orangered;
+    
+}
+
+.container{
+    margin: 30px;
+    width: 60%;
+    background-color: rgb(254, 255, 249);
+    display: flex;
+    padding: 2em;
+    max-width: 900px;
+    border-radius: 20px;
+}
+.image img{
+    width: 30vw;
+    max-width: 400px;
+    margin: auto;
+    transform: translateX(6em);
+    border-radius: 10px;
+    
+    
+}
+.details{
+    padding: 3em;
+    border: none;
+    background-color:green;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+button:hover{
+    background-color: rgb(255, 71, 255);
+
+}
+@media only screen and (max-width: 1200px;){
+    .container{
+        padding: 2em;
+    }
+    
+}
+@media only screen(max-width:1050px){
+    .container{
+        flex-direction: column-reserve;
+        padding-buttom: 0px;
+        width: 80%
+        margin: 100px auto;
+    }
+    
+    .image img{
+        transform: translateX(0) translateY(-8em);
+        width: 60vw;
+
+    }
+    ,details{
+        transform: translateY(-8em);
+    }
+}
+@media only screen and (max-width:510px){
+    body{
+        font-size: 0.6em;
+        .container{
+            padding: 5%;
+            padding-buttom: 0px:
+        }
+        .image img{
+            width: 70vw;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+            <h1>Namaskaram Everyone</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugiat omnis expedita debitis provident earum non exercitationem ipsa, error, veniam suscipit optio recusandae ullam iste excepturi animi illo velit voluptates ipsam minus deleniti autem mollitia maiores! Aperiam unde non quaerat, cum asperiores minima suscipit consectetur beatae dolorem, ut hic corporis! Saepe ea sunt placeat corporis laboriosam vel rerum et odio, exercitationem recusandae delectus, impedit id, sed accusantium corrupti aspernatur vero sequi assumenda.</p>
+            <button>Contact Me</button>
+        </div>
+        <div class="image">
+            <img src="sonu.jpg" alt="image"
+        </div>
+        
+    </div>
+</body>
+</html>
